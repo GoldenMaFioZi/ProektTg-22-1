@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="style cabinet.css">
+</head>
+<body onload="getDataUser()">
+    <div class="header">
+        <div class="icon-name" id="icon-name"></div>
+        <div>
+            <div class="icon icon-logout" onclick="funcLogout()"></div>
+            <a href="/korzina.html"><div class="icon icon-cart" id="icon-cart"></div></a>
+            <a href="/editor">
+                <div class="icon icon-editor" id="icon-editor"></div>
+            </a>
+        </div>
+        <div class="dostavka">
+            <div class="krug"><div class="krug1"></div></div>
+            <div class="dos">Доставка</div>
+        </div>
+        <div class="skidka">
+            <div class="krug"><div class="krug11">до 22%</div></div>
+            <div class="dos">SS скидка</div>
+        </div>
+        <div class="mel">
+            <div class="so">Способы оплаты</div>
+            <div class="so1">Добавить карту</div>
+        </div>
+        <div class="mel1">
+            <div class="so">Чеки</div>
+            <div class="so1">Смотреть</div>
+        </div>
+        <div class="mel2">
+            <div class="so">Secret Shop Карта</div>
+            <div class="so2">Получайте уникальные скидки за оплату покупок</div>
+        </div>
+        <div class="mel3">
+            <div class="so">Оформить премиум</div>
+            <div class="so1">Premium</div>
+        </div>
+        <div class="promo">
+            <div class="promo1">Используйте промокод</div>
+            <input type="text" class="promo2">
+            <input type="button" value="Применить" class="promo3">
+        </div>
+        <div class="promo11">
+            <div class="promo1">Избранное</div>
+            <div class="promo22">В избранном пока пусто <br>
+                Сохраняйте товары, чтобы долго не искать</div>
+        </div>
+    </div>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

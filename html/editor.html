@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить товар</title>
+    <link rel="stylesheet" href="style editor.css">
+</head>
+<body onload="getDataUser()">
+    <div class="header">
+        <a href="/cabinet.html">
+            <div class="name" id="icon-name"></div>
+        </a>
+        <div>
+            <div class="icon icon-logout" onclick="funcLogout()"></div>
+            <div class="icon icon-cart" id="icon-cart"></div>
+            <a href="/cabinet.html">
+                <div class="icon icon-profile" id="icon-editor"></div>
+            </a>
+        </div>
+    </div>
+
+    <div class="login">
+        <div class="login-header">Товар</div>
+        <div class="reg-text">Введите название товара</div>
+        <input type="text" id="productName" class="reg-input">
+        <div class="reg-text">Введите описание товара</div>
+        <textarea id="productDesc" class="reg-textaria"></textarea>
+        <div class="reg-text">Введите цену товара</div>
+        <input type="text" id="productPrice" class="reg-input">
+        <input type="button" value="Добавить товар" class="reg-button" onclick="addProduct()">
+    </div>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

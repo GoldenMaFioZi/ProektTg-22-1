@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style registration.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="fon">
+    <div class="header">
+        <a href="/">
+            <div class="name">Secret Shop</div>
+        </a>
+        <a href="/login.html">
+            <div class="p1"><img src="Photo/Group 3.png" class="profil"></div>
+        </a>
+    </div>
+    <div class="login">
+        <div class="login-header">Регистрация</div>
+        <div class="reg-text">Выберите тип</div>
+        <select class="reg-select" id="userType">
+            <option>Магазин</option>
+            <option>Покупатель</option>
+        </select>
+        <div class="reg-text">Введите имя</div>
+        <input type="login" id="userName" class="reg-input">
+        <div class="reg-text">Придумайте логин</div>
+        <input type="login" id="userLogin" class="reg-input">
+        <div class="reg-text">Придумайте пароль</div>
+        <input type="login" id="userPassword_1" class="reg-input">
+        <div class="reg-text">Повторите пароль</div>
+        <input type="login" id="userPassword_2" class="reg-input">
+        <input type="button" value="Создать аккаунт" class="reg-button" onclick="regFunc()">
+    </div>
+</div>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

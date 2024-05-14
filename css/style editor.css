@@ -1,0 +1,147 @@
+a { text-decoration: none; }
+body{
+    margin:0;
+    padding:0;
+    background:linear-gradient( #79C7FF, white);
+}
+.header{
+    width:1920px;
+    height:144px;
+    background-color:#3BA3DE;
+    border-radius:19px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.name{
+    width:414px;
+    height:93px;
+    font-size:68px;
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:29px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    background-size: 100% 100%;
+    margin-top: -30px;
+    margin-right: 60px;
+    float: right;
+
+}
+.icon-logout{
+    background-image: url("Photo/Vector 20.png");
+}
+.icon-cart{
+    background-image: url("Photo/Group 1.png");
+}
+.icon-profil{
+    background-image: url("Photo/Group 3.png");
+}
+.productCard{
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 200px;
+    background-color: rgb(140, 35, 235);
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+.productIMG{
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 190px;
+    width: 190px;
+    background-color: white;
+}
+
+.productName{
+    color: white;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.productPrice{
+    color: white;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.productDesc{
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    width: 190px;
+}
+.reg-text{
+    color: white;
+    height: 20px;
+    width: 260px;
+    margin-left: 10px;
+}
+.reg-input{
+    font-size: 15px;
+    height: 20px;
+    width: 240px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+.reg-textaria{
+    font-size: 15px;
+    height: 110px;
+    width: 240px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    resize: none;
+}
+.reg-button{
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    height: 40px;
+    width: 240px;
+    margin-top: 55px;
+}
+
+.reg-button:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: hand;
+}
+.reg-select{
+    font-size: 15px;
+    height: 20px;
+    width: 240px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+.login{
+    margin: 130px auto;
+    height: 400px;
+    width: 260px;
+    border-radius: 10px;
+    background-color: #3BA3DE;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    margin-top: 240px;
+}
+.login-header{
+    height: 40px;
+    width: 260px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px;
+}

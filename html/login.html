@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="style login.css">
+</head>
+<body>
+    <div class="fon">
+    <div class="header">
+        <a href="/">
+            <div class="name">Secret Shop</div>
+        </a>
+        <a href="/login.html">
+            <div class="p1"><img src="Photo/Group 3.png" class="profil"></div>
+        </a>
+    </div>
+    <div class="login">
+        <img src="Photo/Group 7.png" class="logotip">
+        <div class="login-header">Авторизация</div>
+        <div class="reg-text">Логин</div>
+        <input type="login" id="login" class="login-input">
+        <div class="reg-text">Пароль</div>
+        <input type="password" id="password" class="login-input">
+        <input type="button" value="Войти" class="login-button" onclick="loginFunc()">
+        <a href="/registration.html">
+            <div class="login-registration">Создать аккаунт</div>
+        </a>
+    </div>
+</div>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
